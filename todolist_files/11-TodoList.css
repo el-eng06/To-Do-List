@@ -1,0 +1,36 @@
+.add-button{
+    background-color: green;
+    color:white;
+    border:none;
+    padding:11.5px 0px;
+    
+}
+input{
+    padding:9px 5px;
+   
+}
+.todo-input-date::placeholder{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    font-size: 16px;
+}
+.todo-input::placeholder{
+font-family:Arial, Helvetica, sans-serif;
+color:rgb(176, 176, 176);
+}
+.delete-button{
+    background-color: brown;
+      color:white;
+    border:none;
+    padding:10px 35px;
+}
+.container,.todo-display{
+    display:grid;
+    grid-template-columns: 200px 150px 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.container{
+    margin-bottom:10px;
+}
